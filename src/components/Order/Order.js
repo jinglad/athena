@@ -3,7 +3,7 @@ import './Order.scss';
 
 const Order = () => {
     return (
-        <section className="bg">
+        <section className="bg mt-5 pt-5">
             <div className="container pb-5">
                 <h2 className="text-center mb-4 pb-4">Choose Your Dedicated Team</h2>
 
