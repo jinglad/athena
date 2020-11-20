@@ -1,6 +1,5 @@
 import React from 'react';
 import running from '../../images/running.png';
-import runningbg from '../../images/runningbg.png';
 import './RunningProject.scss';
 
 const RunningProject = () => {
@@ -9,7 +8,7 @@ const RunningProject = () => {
             <div className="container">
                 <div className="row">                   
                     <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img src={running} className="img-fluid"/>
+                        <img src={running} className="img-fluid" alt=""/>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="running-project">                                                    
