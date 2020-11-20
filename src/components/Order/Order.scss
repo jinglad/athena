@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+h4{
+    color:"#858585";
+    font-family: 'Yeseva One', cursive;
+    margin-top: 30px;
+}
+
+hr {
+    background-image: linear-gradient(to right, #1AD4BD , #0AB3E4);
+    height: 3px;
+    width: 70%;
+    margin: 15% auto;
+    
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+    background-image: url("../../Illustration/Group\ 46@2x.png");
+    background-position: left -745px bottom -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.card-body{
+    border: 3px solid transparent;
+    text-decoration: bold;
+    cursor: pointer;
+}
+.card:hover {
+    border: 3px solid #1cd9b8;
+}
+.card:hover button.btn {
+    visibility: visible;
+}
+.card:hover hr {
+    background-image: none;
+    visibility: hidden;
+}
+.pricing-btn {
+    background: linear-gradient(to right, #1cd9b8, #06aced);
+    width: 150px;
+    height: 50px;
+    margin: 20px auto 0 auto;
+    color: white;
+    border-radius: 23px 0 23px 0;
+    visibility: hidden;
+}

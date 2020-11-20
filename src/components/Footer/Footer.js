@@ -9,9 +9,9 @@ import './Footer.scss'
 
 const Footer = () => {
     return (
-        <div>
-            <div className="text-center contact container">
-                <h1 className="font-weight-bold">Get your design right, right now</h1>
+        <footer className="container pt-5 mb-5">
+            <div className="text-center contact mt-5 pt-5 pb-5">
+                <h2>Get your design right, right now</h2>
                 <p>Be the first to know our latest offers and updates!</p>
                 <div className="input-group mb-3 p-2 rounded bg-white my-5 contact-input mx-auto">
                     <input type="text" class="form-control border-0" placeholder="Enter your email address" />
@@ -20,47 +20,45 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <footer className="container pt-5">
-                <div className="row d-flex ">
-                    <div className="col-md-5 ml-5 text-center text-sm-left">
-                        <img className="logo" src={logo} alt="" />
-                        <div className="mt-3 social-icon">
-                            <a href=""><img src={facebook} alt="" /></a>
-                            <a href=""><img src={twitter} alt="" /></a>
-                            <a href=""><img src={linkedin} alt="" /></a>
-                            <a href=""><img src={dribble} alt="" /></a>
-                        </div>
-                    </div>
-                    <div className="row col-md-6 link-text mt-4 ml-auto text-sm-left text-center">
-                        <div className="col-md-4 mb-3">
-                            <a href="">Features</a>
-                            <br />
-                            <a href="">Enterprise</a>
-                            <br />
-                            <a href="">Pricing</a>
-                        </div>
-                        <div className="col-md-4 mb-3">
-                            <a href="">Blog</a>
-                            <br />
-                            <a href="">Help Center</a>
-                            <br />
-                            <a href="">Contact Us</a>
-                            <br />
-                            <a href="">Status</a>
-                        </div>
-                        <div className="col-md-4 mb-3">
-                            <a href="">About Us</a>
-                            <br />
-                            <a href="">Terms of Service</a>
-                            <br />
-                            <a href="">Security</a>
-                            <br />
-                            <a href="">Login</a>
-                        </div>
+            <div className="row d-flex ">
+                <div className="col-md-5 ml-5 text-center text-sm-left">
+                    <img className="logo" src={logo} alt="" />
+                    <div className="mt-3 social-icon">
+                        <a href=""><img src={facebook} alt="" /></a>
+                        <a href=""><img src={twitter} alt="" /></a>
+                        <a href=""><img src={linkedin} alt="" /></a>
+                        <a href=""><img src={dribble} alt="" /></a>
                     </div>
                 </div>
-            </footer>
-        </div>
+                <div className="row col-md-6 link-text mt-2 text-sm-left text-center">
+                    <div className="col-md-4 mb-3">
+                        <a href="">Features</a>
+                        <br />
+                        <a href="">Enterprise</a>
+                        <br />
+                        <a href="">Pricing</a>
+                    </div>
+                    <div className="col-md-4 mb-3">
+                        <a href="">Blog</a>
+                        <br />
+                        <a href="">Help Center</a>
+                        <br />
+                        <a href="">Contact Us</a>
+                        <br />
+                        <a href="">Status</a>
+                    </div>
+                    <div className="col-md-4 mb-3">
+                        <a href="">About Us</a>
+                        <br />
+                        <a href="">Terms of Service</a>
+                        <br />
+                        <a href="">Security</a>
+                        <br />
+                        <a href="">Login</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     );
 };
 
