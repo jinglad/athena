@@ -5,7 +5,7 @@ import headerPic from '../../Illustration/header-pic.png';
 
 const Header = () => {
     return (
-        <div className="container mb-5">
+        <div className="container mb-5 header-container">
             <Navbar></Navbar>
             <div className="row">
                 <div className="col-md-5">
