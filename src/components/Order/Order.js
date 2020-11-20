@@ -1,8 +1,6 @@
 import React from 'react';
 import './Order.scss';
 
-
-
 const Order = () => {
     return (
         <section className="bg">
@@ -11,7 +9,6 @@ const Order = () => {
 
                 <div className="card-deck text-center">
                     <div className="card">
-                        {/* <img src="..." class="card-img-top" alt="..." /> */}
                         <div className="card-body shadow">
                             <h2 className="card-title">$199</h2>
                             <h6 className="card-text">For Basic</h6>
@@ -24,7 +21,6 @@ const Order = () => {
                         </div>
                     </div>
                     <div className="card">
-                        {/* <img src="..." class="card-img-top" alt="..." /> */}
                         <div className="card-body shadow">
                             <h2 className="card-title">$399</h2>
                             <h6 className="card-text">For Preferred</h6>
@@ -37,7 +33,6 @@ const Order = () => {
                         </div>
                     </div>
                     <div className="card">
-                        {/* <img src="..." class="card-img-top" alt="..." /> */}
                         <div className="card-body shadow">
                             <h2 className="card-title">$599</h2>
                             <h6 className="card-text">For Elite</h6>
