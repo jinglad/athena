@@ -1,0 +1,92 @@
+.achievement-part{    
+    // background-color: #FAFFFD;
+    background-color: yellow;
+}
+.achievement-part2{
+    margin-left: 70px;
+}
+.achievement-part2 h1 {
+    font-weight: bold;
+}
+.part1{
+    // width: 260px;    
+    // height: 120px;
+    width: 300px;    
+    height: 130px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    padding: 30px 40px;
+    color: #fff;    
+    background: linear-gradient(to right, #1AD5BC,#18D1C1,#0EBADB,#08AFE9 );
+}
+.part2{
+    width: 300px;    
+    height: 130px;
+    border-bottom-right-radius: 55px;
+    border-top-left-radius: 55px;    
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #707070;
+}
+.part3{
+    width: 300px;    
+    height: 130px;
+    border-bottom-right-radius: 55px;
+    border-top-left-radius: 55px;    
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #707070;
+}
+.part4{
+    width: 300px;    
+    height: 130px;
+    border-bottom-left-radius: 55px;
+    border-top-right-radius: 55px;    
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #707070;
+}
+.img-part1{
+    height: 50px;
+}
+
+// @media (min-width: 576px) {
+//     .part1{
+//         // width: 260px;    
+//         // height: 120px;
+//         width: 400px;    
+//         height: 140px;
+//         border-top-right-radius: 55px;
+//         border-bottom-left-radius: 55px;
+//         padding: 30px 40px;
+//         color: #fff;    
+//         background: linear-gradient(to right, #1AD5BC,#18D1C1,#0EBADB,#08AFE9 );
+//     }
+//     .part2{
+//         width: 400px;    
+//         height: 140px;
+//         border-bottom-right-radius: 55px;
+//         border-top-left-radius: 55px;    
+//         padding: 30px 30px;
+//         background-color: #fff;
+//         color: #707070;
+//     }
+//     .part3{
+//         width: 400px;    
+//         height: 140px;
+//         border-bottom-right-radius: 55px;
+//         border-top-left-radius: 55px;    
+//         padding: 30px 30px;
+//         background-color: #fff;
+//         color: #707070;
+//     }
+//     .part4{
+//         width: 300px;    
+//         height: 130px;
+//         border-bottom-left-radius: 55px;
+//         border-top-right-radius: 55px;    
+//         padding: 30px 30px;
+//         background-color: #fff;
+//         color: #707070;
+//     } 
+// }

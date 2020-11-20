@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from '../Header/Header';
-import WhatWeDo from '../WhatWeDo/WhatWeDo';
+import Achievement from '../Achievement/Achievement';
+
+import RunningProject from '../RunningProject/RunningProject';
+
 
 const Home = () => {
     return (
-        <div>
-            <Header></Header>
-            <WhatWeDo></WhatWeDo>
+        <div>            
+            <RunningProject></RunningProject>
+            <Achievement></Achievement>
         </div>
     );
 };
