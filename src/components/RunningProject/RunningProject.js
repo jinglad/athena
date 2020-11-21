@@ -8,10 +8,10 @@ const RunningProject = () => {
         <div className="run-main">
             <div className="container">
                 <div className="row">                   
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                         <img src={running} className="img-fluid"/>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="running-project">                                                    
                             <h2>Stay Running & Project</h2>
                             <br/>

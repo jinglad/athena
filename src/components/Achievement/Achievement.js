@@ -8,12 +8,12 @@ import './Achievement.scss';
 
 const Achievement = () => {
     return (
-        <div className="achievement-part mt-5 pt-5 pb-5">
+        <div className="achievement-part mt-5 pb-5">
             <div className="main-part">
                 <div className="container mt-5 pt-5">
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 col-sm-8">
-                            <div className="achievement-text mt-5">
+                        <div className="col-lg-5 col-md-5 col-sm-12 col-12">
+                            <div className="achievement-text">
                                 <h2>Our Achievements</h2>
                                 <br/>
                                 <small className="text-secondary">
@@ -21,11 +21,12 @@ const Achievement = () => {
                                 </small>
                             </div>                            
                         </div>
-                        <div className="col-lg-8 col-md-8 col-sm-12">
+                        <div className="col-lg-7 col-md-7 col-sm-12 col-11">
                             <div className="achievement-part2">
                                 <div className="row">
-                                    <div className="float-left mt-4 ml-4">
-                                        <div className="part1 d-flex">
+                                    <div className="content1 col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
+                                        <div className="part1 d-flex justify-content-center align-items-center
+                                         ">
                                             <img src={aclogo2} className="img-part1" />
                                             <div className="ml-4">
                                                 <h1 className="text-white">
@@ -34,9 +35,9 @@ const Achievement = () => {
                                                 <p>Happy Client</p>
                                             </div>                                            
                                         </div>
-                                    </div>
-                                    <div className="float-right mt-4 ml-4">
-                                        <div className="part2 d-flex">
+                                    </div>                                    
+                                    <div className="content1 col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
+                                        <div className="part2 d-flex justify-content-center align-items-center">
                                             <img src={aclogo1} className="img-part1"/>
                                             <div className="ml-4">
                                                 <h1 className="">
@@ -48,8 +49,8 @@ const Achievement = () => {
                                     </div> 
                                 </div>
                                 <div className="row">
-                                    <div className="float-left mt-4 ml-4">
-                                        <div className="part3 d-flex">
+                                    <div className="content1 col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
+                                        <div className="part3 d-flex justify-content-center align-items-center">
                                             <img src={aclogo3} className="img-part1" />
                                             <div className="ml-4">
                                                 <h1 className="">
@@ -59,8 +60,8 @@ const Achievement = () => {
                                             </div>                                            
                                         </div>
                                     </div>
-                                    <div className="float-right mt-4 ml-4">
-                                        <div className="part4 d-flex">
+                                    <div className="content1 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                                        <div className="part4 d-flex justify-content-center align-items-center">
                                             <img src={aclogo4} className="img-part1"/>
                                             <div className="ml-4">
                                                 <h1 className="">
@@ -70,8 +71,7 @@ const Achievement = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                
+                                </div>                                
                             </div>
                         </div>
                     </div>
